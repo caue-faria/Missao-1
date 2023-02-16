@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/formatos.css" rel="stylesheet" />
+  <!--Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <title>Cadastro</title>
+  <style>
+    input[type=text]{
+      background-color: white;
+    }
+    input[type=number]{
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 h-60px">
+        <header>
+          <ul class="nav justify-content-left">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastro.html">Cadastro</a>
+            </li>
+          </ul>
+          <!--menu-->   
+        </header>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 h-calc(100vh - 100px)" style="overflow-y: auto;">
+      <main>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Efetue seu cadastro</h1>
+              <form method="post" action="mailto:seuemailaqui@gmail.com">
+                <div class="form-group">
+                  <label for="nome" class="col-form-label col-md-2">Nome:</label>
+                  <input type="text" name="nome" id="nome" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="nome" class="col-form-label col-md-2">Email:</label>
+                  <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="rua" class="col-form-label col-md-2">Rua:</label>
+                  <input type="text" name="rua" id="rua" class="form-control" required>
+                </div>
+                <div class="form-group">            
+                  <label for="number" class="col-form-label col-md-2">Nº:</label>
+                  <div class="col">
+                  <input type="number" name="num" id="num" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="compl" class="col-md-6 col-form-label">Complemento:</label>
+                    <input type="text" name="compl" id="compl" class="form-control" required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="cep" class="col-form-label col-md-2">CEP:</label>
+                  <div class="col-md-5">
+                    <input type="number" name="cep" id="cep" class="form-control" required>
+                  </div>
+                </div>
+                <div class="form-group">            
+                    <div class="col-md-2">
+                    <label for="cidade" class="col-form-label col-md-2">Cidade:</label>
+                    </div>
+                    <input type="text" name="cidade" id="cidade" class="form-control" required>
+
+                  <div class="form-group">
+                    <label for="estado" class="col-form-label col-md-6">UF:</label>
+                    <input type="text" name="estado" id="estado" class="form-control" required>
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="botao float-right">Cadastrar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+                    
+                </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">  
+          <footer class="rodape" >&copy;Cauê 2023</footer>
+          </div>
+        </div>
+      </main>
+      
+  
+  </body>
+</html>

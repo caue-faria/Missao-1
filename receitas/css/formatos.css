@@ -1,0 +1,88 @@
+* {
+  background-color: pink;
+
+}
+
+.nav {
+  background-color: gray;
+}
+
+.nav-link {
+  background-color: gray;
+  color: white;
+  font-family: Verdana, sans-serif;
+
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  padding: 5px 5px;
+}
+
+main {
+  height: calc(100vh - 100px);
+  width: 100%;
+  padding: 5px 5px;
+}
+
+footer {
+  height: 25px;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: verdana, sans-serif;
+}
+
+h1 img {
+  max-height: 100px;
+  max-width: 100px;
+  width: auto;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: verdana, sans-serif;
+  font-style: italic;
+  justify-content: center;
+}
+
+.rodape {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.botao {
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  float: right;
+
+}
+
+input {
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  text-align: left;
+}
+
+.form-row {
+  display: flex;
+}
